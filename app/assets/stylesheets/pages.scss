@@ -1,10 +1,13 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// GENERIC SITE WIDE STYLES
 *{
   font-family: "SpaceMono";
 }
 
+// HOMEPAGE
 .container{
   background: #FF0000;
   height: 100vh;
@@ -20,4 +23,19 @@
 }
 #homepage-blurb{
 
+}
+#homepage-navigation{
+  list-style: none;
+  font-size: 3em;
+  padding-left: 33px;
+  display: none;
+}
+#homepage-navigation li{
+
+}
+#homepage-navigation #INCYAN{
+
+}
+#homepage-hamburger{
+  height: 100px;
 }
