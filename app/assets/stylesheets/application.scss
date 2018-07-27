@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+ // FONTS
+
+ @font-face{
+   font-family:"SpaceMono";
+   src: url('/assets/SpaceMono-Regular');
+ }
+ @font-face{
+   font-family:"SpaceMono-Italic";
+   src: url('/assets/SpaceMono-Italic');
+ }
+ @font-face{
+   font-family:"SpaceMono-Bold";
+   src: url('/assets/SpaceMono-Bold');
+ }
+ @font-face{
+   font-family:"SpaceMono-Bold-Italic";
+   src: url('/assets/SpaceMono-BoldItalic');
+ }

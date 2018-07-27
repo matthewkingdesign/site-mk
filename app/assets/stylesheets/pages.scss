@@ -1,8 +1,23 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+*{
+  font-family: "SpaceMono";
+}
+
 .container{
   background: #FF0000;
   height: 100vh;
   width: 100vw;
+}
+#homepage-content{
+  padding: 33px;
+}
+#homepage-title{
+  font-family: "SpaceMono-Bold-Italic";
+  font-size: 2em;
+  padding-bottom: 33px;
+}
+#homepage-blurb{
+
 }
