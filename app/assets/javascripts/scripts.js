@@ -1,23 +1,25 @@
 $(document).ready(function(){
-  $("#homepage-hamburger").click(function() {
-    $("#homepage-content").slideToggle();
-  });
+
+  // simple height toggle animation
   // $("#homepage-hamburger").click(function() {
-  //   $("#homepage-blurb").fadeToggle();
-  // });
-  // $("#homepage-hamburger").hover(function(){
-  //   if($(this).hasClass("zoomed")){
-  //     $(this).removeClass("zoomed");
-  //   }else{
-  //     $(this).addClass("zoomed");
-  //   }
+  //   $("#homepage-content").animate({
+  //     height: 'toggle'
+  //   });
   // });
 
   $("#homepage-hamburger").click(function(){
-  if($(".container").hasClass("zoomed")){
-    $(".container").removeClass("zoomed");
-  }else{
-      $(".container").addClass("zoomed");
-  }
+      var div = $("#homepage-content");
+      div.animate({height: 'toggle'}, "slow");
+      div.animate({top: '100px'}, "slow");
+      $("#homepage-blurb").animate({width:'33vw'},"slow");
   });
+
+  // CHANGE CURSOR TO HAMBURGER on Click event
+  // $("#homepage-hamburger").click(function(){
+  // if($(".container").hasClass("zoomed")){
+  //   $(".container").removeClass("zoomed");
+  // }else{
+  //     $(".container").addClass("zoomed");
+  // }
+  // });
 });
